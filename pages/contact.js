@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Button, EditIcon } from '@/components/mui'
 import Layout from '@/components/Layout'
-
+import Heading from '@/components/mui'; 
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <h1>Contact Page</h1>
+        <Heading component="h2">Contact Page</Heading>
         <Button variant="contained"> <EditIcon/>Button</Button>
       </Layout>
     </>
